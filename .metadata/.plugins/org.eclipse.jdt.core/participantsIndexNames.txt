@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\MINOR 2 OpinionAnalysis\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3654229182.index
+\OpinionAnalysis\src\main\java
+D:\MINOR 2 OpinionAnalysis\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\888863452.index
+\OpinionAnalysis\src\main\java

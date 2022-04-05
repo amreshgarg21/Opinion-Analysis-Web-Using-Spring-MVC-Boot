@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\MINOR 2 OpinionAnalysis\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3857124849.index
+3161121669.index
+1763828357.index
+279557904.index
+2291444016.index
+854191123.index

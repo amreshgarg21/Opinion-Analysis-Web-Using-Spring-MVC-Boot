@@ -1,0 +1,86 @@
+package OpinionAnalysis;
+
+import java.util.Scanner;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+class MessageHolder{
+	private Node messages;
+	private Node first;
+	private Node last;
+	private int listSize;
+	
+	public MessageHolder(){
+
+		this.first = null;
+		this.last = null;
+		this.messages = null;
+		this.listSize = 0;
+	
+	}	
+	
+	public void addMessage(Message message) {
+		
+		System.out.println("Add message functionality is working");
+	
+		if(messages == null) {  
+			messages = new Node();
+			messages.message = message;
+			messages.next = null; 
+			first = messages;
+			last = messages;
+						
+		}
+		
+		else if(first==last){
+			first.next = new Node();
+			last = first.next;
+			last.message = message;
+			last.next = null;    
+			
+		} 
+		
+		else {
+			 last.next = new Node();
+			 last = last.next;
+			 last.message = message;
+			 last.next = null;
+		}
+		
+		listSize++;		
+		
+	}
+	
+	public String populateMessages(String userMessage) { 	
+		String []userinput = userMessage.split("\n");
+		
+		for(String i:userinput) {
+			
+			System.out.println(i);
+			Message m = new Message(i);
+			addMessage(m);
+			
+		}
+				
+		return "success";
+
+	}
+	
+	public Node getAllMessages() {
+		
+		System.out.println("getAllMessages is working");
+		
+		return this.messages;
+	}
+	
+	public int size() {
+		
+		System.out.println("size is working");
+		
+		return listSize;
+	} 
+}

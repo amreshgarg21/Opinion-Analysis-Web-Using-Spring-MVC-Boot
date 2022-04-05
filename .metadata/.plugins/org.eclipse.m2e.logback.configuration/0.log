@@ -1,0 +1,749 @@
+2022-04-04 00:37:11,551 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-04 00:38:53,904 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.2/maven-war-plugin-3.3.2.jar
+2022-04-04 00:38:54,601 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.2/maven-war-plugin-3.3.2.jar
+2022-04-04 00:38:55,261 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 00:38:57,049 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.2/maven-war-plugin-3.3.2.pom
+2022-04-04 00:38:57,505 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.3.2/maven-war-plugin-3.3.2.pom
+2022-04-04 00:38:58,987 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 00:38:58,987 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:38:58,992 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:38:58,997 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 00:39:01,967 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2022-04-04 00:39:01,971 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 00:39:02,333 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 00:39:03,137 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 00:39:03,137 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:39:03,138 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:39:03,138 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 00:39:04,114 [Worker-6: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for OpinionAnalysis
+2022-04-04 00:39:04,117 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-04-04 00:39:04,951 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:04,951 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:04,957 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:39:04,979 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:04,982 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:04,982 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:04,982 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:39:04,982 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 00:39:04,983 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 00:39:04,987 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:04,987 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:34,131 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 00:39:34,965 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:34,966 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:34,969 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:34,969 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:34,972 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:34,972 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:34,972 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:39:34,972 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 00:39:34,972 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 00:39:34,975 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:34,975 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:36,354 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:36,355 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:36,356 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:39:36,381 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:36,387 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:36,387 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:36,388 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:39:46,418 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:46,418 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:46,418 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:46,419 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:39:46,421 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:39:46,421 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:39:46,421 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:42:19,517 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:19,518 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:19,518 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:42:19,524 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:42:19,526 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:19,526 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:19,527 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:42:29,754 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:29,754 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:29,754 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:42:29,759 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:42:29,761 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:29,761 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:29,761 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:42:49,019 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:49,019 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:49,020 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:42:49,025 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:42:49,028 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:49,028 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:49,029 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:42:54,889 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:54,889 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:54,890 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:42:54,893 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:42:54,894 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:54,895 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:54,895 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:42:59,648 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:59,648 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:59,649 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:42:59,651 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:42:59,652 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:42:59,652 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:42:59,652 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:04,723 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:04,723 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:04,724 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:04,727 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:04,728 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:04,728 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:04,728 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:15,256 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:15,256 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:15,257 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:15,280 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:15,281 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:15,281 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:15,282 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:21,758 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:21,758 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:21,758 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:21,761 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:21,763 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:21,763 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:21,763 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:26,346 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:26,346 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:26,347 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:26,350 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:26,351 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:26,351 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:26,351 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:32,336 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:32,336 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:32,337 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:32,340 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:32,341 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:32,341 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:32,341 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:38,945 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:38,945 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:38,945 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:38,948 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:38,949 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:38,949 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:38,949 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:43:51,823 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:51,823 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:51,823 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:43:51,825 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:43:51,828 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:43:51,828 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:43:51,828 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:45:21,377 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:45:21,377 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:45:21,378 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:45:21,381 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:45:21,383 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:45:21,383 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:45:21,383 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:46:07,172 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:46:07,172 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:46:07,172 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:46:07,172 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:46:07,176 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:46:07,176 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:46:07,177 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:47:49,618 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:47:49,618 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:47:49,618 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:47:49,627 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:47:49,629 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:47:49,629 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:47:49,630 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:48:05,033 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:48:05,033 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:48:05,033 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:48:05,046 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:48:05,048 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:48:05,049 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:48:05,049 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:48:54,028 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:48:54,028 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:48:54,028 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:48:54,028 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:48:54,029 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:48:54,029 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:48:54,029 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:04,917 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:04,917 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:04,917 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:04,917 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:04,919 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:04,919 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:04,919 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:05,984 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:05,984 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:05,984 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:05,984 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:05,985 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:05,985 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:05,985 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:15,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:15,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:15,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:15,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:15,808 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:15,808 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:15,808 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:18,012 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:18,013 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:18,013 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:18,013 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 00:49:18,014 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:18,014 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:18,014 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:31,836 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 00:49:32,163 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 00:49:32,778 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 00:49:32,778 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:49:32,778 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 00:49:32,778 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 00:49:33,243 [Worker-11: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for OpinionAnalysis
+2022-04-04 00:49:33,248 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-04 00:49:34,173 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:34,184 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:34,184 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:49:34,210 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:49:34,215 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:34,215 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:49:34,215 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 00:49:34,215 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 00:49:34,215 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 00:49:34,220 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:49:34,220 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:50:21,301 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 00:50:29,258 [Worker-8: Launching OpinionAnalysis] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 00:50:29,259 [Worker-8: Launching OpinionAnalysis] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 00:50:48,701 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:50:48,701 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:50:48,703 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:50:48,712 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 00:50:48,715 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 00:50:48,715 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 00:50:48,715 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:10:27,000 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:10:27,000 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:10:27,001 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:10:27,009 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:10:27,010 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:10:27,010 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:10:27,011 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:12:59,568 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:12:59,568 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:12:59,569 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:12:59,575 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:12:59,577 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:12:59,577 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:12:59,577 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:13:29,854 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 01:13:40,770 [Worker-36: Launching OpinionAnalysis (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 01:13:40,771 [Worker-36: Launching OpinionAnalysis (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 01:18:29,915 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:18:29,915 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:18:29,916 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:18:29,920 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:18:29,921 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:18:29,922 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:18:29,922 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:19:31,240 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 01:19:38,717 [Worker-43: Launching OpinionAnalysis (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 01:19:38,717 [Worker-43: Launching OpinionAnalysis (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 01:20:25,034 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 01:20:34,098 [Worker-38: Launching OpinionAnalysis (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 01:20:34,098 [Worker-38: Launching OpinionAnalysis (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 01:44:08,360 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:44:08,360 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:44:08,360 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:44:08,369 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:44:08,371 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:44:08,371 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:44:08,371 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:50:20,668 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:50:20,668 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:50:20,669 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:50:20,675 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 01:50:20,677 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 01:50:20,677 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 01:50:20,677 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 01:51:44,068 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 01:51:50,633 [Worker-67: Launching OpinionAnalysis (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 01:51:50,633 [Worker-67: Launching OpinionAnalysis (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 02:42:55,787 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 02:42:55,787 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 02:42:55,788 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 02:42:55,788 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 02:42:55,790 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 02:42:55,790 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 02:42:55,790 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 02:49:37,427 [Worker-71: Launching OpinionAnalysis (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 02:49:37,427 [Worker-71: Launching OpinionAnalysis (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 02:53:03,081 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-04 10:08:27,472 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-04 10:09:01,166 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:09:01,167 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:09:01,190 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:09:01,237 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:09:01,275 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:09:01,276 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:09:01,276 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:09:06,439 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:09:06,440 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:09:06,442 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:09:06,487 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:09:06,506 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:09:06,507 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:09:06,508 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:17:58,475 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:17:58,488 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:17:58,509 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:17:58,607 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:17:58,628 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:17:58,628 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:17:58,629 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:18:43,728 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:18:43,729 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:18:43,733 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:18:43,762 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:18:43,778 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:18:43,779 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:18:43,780 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:19:36,829 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:19:45,441 [Worker-16: Launching OpinionAnalysis (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:19:45,446 [Worker-16: Launching OpinionAnalysis (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:22:54,077 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:22:54,078 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:22:54,083 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:22:54,114 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:22:54,262 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:22:54,263 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:22:54,264 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:23:33,996 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:33,997 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:34,001 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:23:34,023 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:23:34,033 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:34,034 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:34,035 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:23:36,176 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:36,176 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:36,178 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:23:36,185 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:23:36,186 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:23:36,186 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:23:36,186 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:24:16,982 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:16,984 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:17,015 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:24:17,034 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:24:17,055 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:24:17,055 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:24:17,056 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:24:31,705 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:24:42,393 [Worker-3: Launching OpinionAnalysis (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:24:42,394 [Worker-3: Launching OpinionAnalysis (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:29:56,970 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:29:56,971 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:29:56,977 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:29:57,024 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:29:57,063 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:29:57,064 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:29:57,065 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:31:38,232 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:31:38,233 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:31:38,237 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:31:38,267 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:31:38,279 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:31:38,279 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:31:38,280 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:31:47,337 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 10:31:50,376 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 10:31:54,553 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 10:31:54,555 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 10:31:54,556 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 10:31:54,559 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 10:31:58,087 [Worker-22: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for OpinionAnalysis
+2022-04-04 10:31:58,109 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2022-04-04 10:32:01,620 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:32:01,621 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:32:01,715 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:32:01,955 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:32:02,033 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:32:02,035 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:32:02,036 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:32:02,039 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 10:32:02,043 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 10:32:02,101 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:32:02,101 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:32:22,710 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:32:30,272 [Worker-28: Launching OpinionAnalysis (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:32:30,272 [Worker-28: Launching OpinionAnalysis (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:34:41,224 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:34:41,224 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:34:41,225 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:34:41,225 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:34:41,228 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:34:41,228 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:34:41,228 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:35:00,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:35:00,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:35:00,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:35:00,045 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:35:00,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:35:00,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:35:00,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:35:05,383 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:35:05,383 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:35:05,383 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:35:05,383 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:35:05,384 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:35:05,384 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:35:05,384 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:43:53,780 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:43:53,780 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:43:53,781 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:43:53,799 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:43:53,801 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:43:53,801 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:43:53,801 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:44:07,797 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:44:16,462 [Worker-37: Launching OpinionAnalysis (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:44:16,462 [Worker-37: Launching OpinionAnalysis (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:46:27,961 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:27,961 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:27,961 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:27,967 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:27,968 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:27,968 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:27,968 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:46:32,962 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:32,962 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:32,962 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:32,968 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:32,969 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:32,969 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:32,969 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:46:42,255 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:42,255 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:42,255 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:42,261 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:46:42,263 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:46:42,263 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:46:42,263 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:47:03,686 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:47:10,356 [Worker-41: Launching OpinionAnalysis (9)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:47:10,356 [Worker-41: Launching OpinionAnalysis (9)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:48:49,258 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:48:49,258 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:48:49,258 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:48:49,300 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:48:49,316 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:48:49,317 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:48:49,317 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:49:11,012 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:49:15,291 [Worker-43: Launching OpinionAnalysis (10)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:49:15,292 [Worker-43: Launching OpinionAnalysis (10)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:49:43,003 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:49:48,590 [Worker-43: Launching OpinionAnalysis (11)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:49:48,590 [Worker-43: Launching OpinionAnalysis (11)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:50:24,272 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:50:24,272 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:50:24,273 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:50:24,277 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:50:24,279 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:50:24,279 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:50:24,279 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:50:34,652 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:50:40,359 [Worker-42: Launching OpinionAnalysis (12)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:50:40,359 [Worker-42: Launching OpinionAnalysis (12)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:51:11,279 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:51:11,280 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:51:11,280 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:51:11,284 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:51:11,285 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:51:11,285 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:51:11,285 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:51:16,120 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:51:19,753 [Worker-43: Launching OpinionAnalysis (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:51:19,753 [Worker-43: Launching OpinionAnalysis (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:52:06,344 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:52:06,344 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:52:06,344 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:52:06,363 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:52:06,365 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:52:06,365 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:52:06,365 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:52:10,831 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:52:15,171 [Worker-39: Launching OpinionAnalysis (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:52:15,171 [Worker-39: Launching OpinionAnalysis (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:53:53,743 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:53:53,743 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:53:53,743 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:53:53,743 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:53:53,744 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:53:53,745 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:53:53,745 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:54:11,046 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:54:15,738 [Worker-46: Launching OpinionAnalysis (15)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:54:15,738 [Worker-46: Launching OpinionAnalysis (15)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 10:55:46,742 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:55:46,742 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:55:46,742 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:55:46,743 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 10:55:46,744 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:55:46,744 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:55:46,744 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:55:59,829 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:55:59,829 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:55:59,829 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:55:59,833 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 10:55:59,835 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 10:55:59,835 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 10:55:59,835 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 10:56:11,625 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 10:56:19,548 [Worker-49: Launching OpinionAnalysis (16)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 10:56:19,548 [Worker-49: Launching OpinionAnalysis (16)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 11:26:58,947 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:26:58,947 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:26:58,948 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:26:58,963 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:26:58,965 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:26:58,965 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:26:58,965 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:27:40,509 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:27:40,509 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:27:40,510 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:27:40,514 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:27:40,516 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:27:40,516 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:27:40,516 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:28:32,402 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:28:32,402 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:28:32,402 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:28:32,406 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:28:32,408 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:28:32,408 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:28:32,408 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:28:49,653 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:28:49,653 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:28:49,654 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:28:49,658 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:28:49,659 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:28:49,659 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:28:49,659 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:29:05,750 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 11:29:13,291 [Worker-65: Launching OpinionAnalysis (17)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 11:29:13,291 [Worker-65: Launching OpinionAnalysis (17)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B pacakge -Dstyle.color=always
+2022-04-04 11:29:34,557 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 11:29:39,007 [Worker-66: Launching OpinionAnalysis (18)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 11:29:39,007 [Worker-66: Launching OpinionAnalysis (18)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 11:35:54,740 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:35:54,740 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:35:54,740 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:35:54,740 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:35:54,741 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:35:54,741 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:35:54,741 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:36:50,097 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:36:50,098 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:36:50,098 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:36:50,098 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-04 11:36:50,099 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:36:50,099 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:36:50,099 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:37:00,767 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 11:37:07,602 [Worker-64: Launching OpinionAnalysis (19)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 11:37:07,603 [Worker-64: Launching OpinionAnalysis (19)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 11:44:53,984 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:44:53,984 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:44:53,984 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:44:53,989 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 11:44:53,991 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 11:44:53,991 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 11:44:53,991 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 11:45:17,477 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 11:45:22,591 [Worker-70: Launching OpinionAnalysis (20)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 11:45:22,591 [Worker-70: Launching OpinionAnalysis (20)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:01:30,595 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:01:30,595 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:01:30,595 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:01:30,600 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:01:30,600 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:01:30,600 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:01:30,601 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:01:53,810 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:01:53,810 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:01:53,811 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:01:53,816 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:01:53,817 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:01:53,817 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:01:53,817 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:02:05,774 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 12:02:13,089 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 12:02:24,470 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 12:02:24,470 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 12:02:24,470 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 12:02:24,471 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 12:02:25,102 [Worker-85: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for OpinionAnalysis
+2022-04-04 12:02:25,107 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 19 sec
+2022-04-04 12:02:26,066 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:02:26,066 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:02:26,066 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:02:26,083 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:02:26,102 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:02:26,102 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:02:26,103 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:02:26,103 [Worker-84: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 12:02:26,103 [Worker-84: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 12:02:26,107 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:02:26,107 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:03:04,337 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-04 12:03:04,838 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OpinionAnalysis:OpinionAnalysis:0.0.1-SNAPSHOT @ D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\pom.xml.
+2022-04-04 12:03:06,872 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/main/java
+2022-04-04 12:03:06,872 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 12:03:06,872 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OpinionAnalysis/src/main/resources
+2022-04-04 12:03:06,872 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OpinionAnalysis/src/test/java
+2022-04-04 12:03:07,100 [Worker-83: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for OpinionAnalysis
+2022-04-04 12:03:07,103 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-04-04 12:03:07,603 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:03:07,603 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:03:07,603 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:03:07,619 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:03:07,624 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:03:07,624 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:03:07,624 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:03:07,624 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of OpinionAnalysis
+2022-04-04 12:03:07,624 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for OpinionAnalysis
+2022-04-04 12:03:07,629 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:03:07,629 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:03:19,488 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:03:24,943 [Worker-79: Launching OpinionAnalysis (21)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:03:24,944 [Worker-79: Launching OpinionAnalysis (21)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:10:45,564 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:10:45,564 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:10:45,565 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:10:45,571 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:10:45,572 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:10:45,573 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:10:45,573 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:10:57,818 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:11:02,286 [Worker-88: Launching OpinionAnalysis (22)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:11:02,286 [Worker-88: Launching OpinionAnalysis (22)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:21:16,232 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:21:16,232 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:21:16,233 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:21:16,295 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:21:16,296 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:21:16,296 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:21:16,296 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:21:32,378 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:21:36,895 [Worker-96: Launching OpinionAnalysis (23)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:21:36,895 [Worker-96: Launching OpinionAnalysis (23)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:24:44,232 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:24:44,232 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:24:44,232 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:24:44,256 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:24:44,258 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:24:44,259 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:24:44,259 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:26:36,840 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:26:36,841 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:26:36,841 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:26:36,845 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:26:36,846 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:26:36,846 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:26:36,846 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:26:56,795 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:27:02,554 [Worker-94: Launching OpinionAnalysis (24)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:27:02,554 [Worker-94: Launching OpinionAnalysis (24)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B pacakge -Dstyle.color=always
+2022-04-04 12:27:15,947 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:27:21,042 [Worker-98: Launching OpinionAnalysis (25)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:27:21,042 [Worker-98: Launching OpinionAnalysis (25)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:29:12,562 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:29:12,562 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:29:12,562 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:29:12,567 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:29:12,569 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:29:12,569 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:29:12,569 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:29:31,490 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:29:37,793 [Worker-94: Launching OpinionAnalysis (26)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:29:37,793 [Worker-94: Launching OpinionAnalysis (26)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:30:49,626 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:30:49,626 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:30:49,626 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:30:49,631 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:30:49,632 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:30:49,632 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:30:49,633 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:49:21,676 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:49:21,676 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:49:21,677 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:49:21,688 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:49:21,690 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:49:21,690 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:49:21,690 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:49:37,666 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:49:42,920 [Worker-109: Launching OpinionAnalysis (27)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:49:42,920 [Worker-109: Launching OpinionAnalysis (27)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:51:30,379 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:51:30,379 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:51:30,379 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:51:30,392 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:51:30,393 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:51:30,393 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:51:30,393 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:51:44,990 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:51:49,608 [Worker-108: Launching OpinionAnalysis (28)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:51:49,608 [Worker-108: Launching OpinionAnalysis (28)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:52:07,812 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:52:11,389 [Worker-113: Launching OpinionAnalysis (29)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:52:11,389 [Worker-113: Launching OpinionAnalysis (29)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 12:52:38,762 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:52:38,763 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:52:38,763 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:52:38,771 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 12:52:38,772 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 12:52:38,772 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 12:52:38,772 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 12:52:46,080 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 12:52:50,496 [Worker-110: Launching OpinionAnalysis (30)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 12:52:50,497 [Worker-110: Launching OpinionAnalysis (30)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 13:03:45,810 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:03:45,810 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:03:45,811 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:03:45,816 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:03:45,817 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:03:45,817 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:03:45,817 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 13:04:03,763 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 13:04:42,724 [Worker-112: Launching OpinionAnalysis (31)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 13:04:42,724 [Worker-112: Launching OpinionAnalysis (31)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 13:17:12,700 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:17:12,701 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:17:12,701 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:17:12,706 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:17:12,708 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:17:12,708 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:17:12,708 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 13:17:38,282 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 13:17:45,427 [Worker-112: Launching OpinionAnalysis (32)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 13:17:45,427 [Worker-112: Launching OpinionAnalysis (32)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
+2022-04-04 13:36:21,798 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:36:21,798 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:36:21,798 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:36:21,803 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-04 13:36:21,805 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 13:36:21,805 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-04 13:36:21,805 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MINOR 2 OpinionAnalysis\OpinionAnalysis\src\test\resources
+2022-04-04 13:36:35,890 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-04 13:36:42,327 [Worker-118: Launching OpinionAnalysis (33)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\MINOR 2 OpinionAnalysis\OpinionAnalysis
+2022-04-04 13:36:42,327 [Worker-118: Launching OpinionAnalysis (33)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package -Dstyle.color=always
