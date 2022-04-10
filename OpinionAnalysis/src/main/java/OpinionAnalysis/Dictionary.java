@@ -24,8 +24,9 @@ class Dictionary {
 
 //		 final String filePath = fileLocation;
 		
-		//final String filePath = "C:\\Utkarsh.txt";
-		final String filePath = "/root/Utkarsh.txt";
+		final String filePath = "C:\\Utkarsh.txt";
+		
+		//final String filePath = "/root/Utkarsh.txt";
 
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		BufferedReader br = null;
