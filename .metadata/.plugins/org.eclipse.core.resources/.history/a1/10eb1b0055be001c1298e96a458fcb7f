@@ -1,0 +1,116 @@
+package OpinionAnalysis;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+	@Controller
+	class Analysis implements AnalysisInterface{
+	public Analysis() {}
+
+	public MessageHolder analyseMessages(MessageHolder holder, Map<String, Integer> map, Model model){
+		
+		
+		Node messages = holder.getAllMessages();
+		double negativeCount = 0;
+		double positiveCount = 0;
+		double neutralCount = 0;
+		double generalCount = 0;
+
+		while(messages != null)
+	    {
+			
+			String message = messages.message.getMessage().toLowerCase(); // combining upper and below lines
+
+			int sentimentCount= 0;
+
+	     
+			String[] elements = message.split("\\s+");
+			
+	        List<String> fixedLenghtList = Arrays.asList(elements); 
+	        List<String> wordList = new ArrayList<String>(fixedLenghtList); 
+	        
+	        Iterator<String> it = wordList.iterator();
+	        while(it.hasNext()) {
+	        String cum=it.next();
+	        	if(cum != null) {
+	        		
+	        		if (map.get(cum) != null)
+	        		sentimentCount += map.get(cum).intValue();
+	        	}
+	        	else {
+	        		sentimentCount += 0;
+	        	}
+	        	
+	        }
+	        
+			if (sentimentCount < 0){
+				messages.message.setSentiment(0);
+				negativeCount++;
+			}
+			else if (sentimentCount > 0){
+				messages.message.setSentiment(1);
+				positiveCount++;
+			}
+			else if (sentimentCount == 0){
+				messages.message.setSentiment(2);
+				neutralCount++;
+			}
+
+			generalCount += sentimentCount;
+
+	        messages= messages.next;
+	    }
+		
+		
+		System.out.println("Opinion Analysis is as follows: " );
+		
+		double total = (negativeCount + positiveCount + neutralCount);
+
+
+		model.addAttribute("Total", total);
+		
+			
+		System.out.println("Total Messages: " + total);
+		
+		double positivePercentageOriginal = (positiveCount / total)*100; 
+		double positivePercentage = Math.round(positivePercentageOriginal * 100.0) / 100.0;
+		
+		double negativePercentageOriginal = (negativeCount / total)*100; 
+		double negativePercentage = Math.round(negativePercentageOriginal * 100.0) / 100.0;
+		
+		double neutralPercentageOriginal = (neutralCount / total)*100; 
+		double neutralPercentage = Math.round(neutralPercentageOriginal * 100.0) / 100.0;
+		
+		model.addAttribute("Positive_Percentage", positivePercentage);
+		model.addAttribute("Negative_Percentage", negativePercentage);
+		model.addAttribute("Neutral_Percentage", neutralPercentage);
+		
+		
+		System.out.println("Positive %: " + ((positiveCount / total)*100));
+		System.out.println("Negative %: " + ((negativeCount / total)*100));
+		System.out.println("Neutral %: " + ((neutralCount / total)*100)); 
+
+		String consensus = "";
+		if (generalCount>0)
+			consensus ="General Consensus is Positive!";
+		else if (generalCount<0)
+			consensus ="General Consensus is Negative!";
+		else if (generalCount==0)
+			consensus ="General Consensus is Neutral!";
+		
+		model.addAttribute("General_Consensus", consensus);
+		
+
+		return holder;	
+		
+	}
+
+}

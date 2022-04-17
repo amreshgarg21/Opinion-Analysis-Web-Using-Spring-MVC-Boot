@@ -1,14 +1,6 @@
 package OpinionAnalysis;
 
-import java.util.Scanner;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-
-
-class MessageHolder{
+class MessageHolder implements MessageHolderInterface{
 	private Node messages;
 	private Node first;
 	private Node last;
@@ -25,7 +17,7 @@ class MessageHolder{
 	
 	public void addMessage(Message message) {
 		
-		System.out.println("Add message functionality is working");
+		// System.out.println("Add message functionality is working");
 	
 		if(messages == null) {  
 			messages = new Node();
@@ -72,14 +64,14 @@ class MessageHolder{
 	
 	public Node getAllMessages() {
 		
-		System.out.println("getAllMessages is working");
+		// System.out.println("getAllMessages is working");
 		
 		return this.messages;
 	}
 	
 	public int size() {
 		
-		System.out.println("size is working");
+		// System.out.println("size is working");
 		
 		return listSize;
 	} 

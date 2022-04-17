@@ -8,11 +8,10 @@ import java.util.Map;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+
 
 	@Controller
-	class Analysis{
+	class Analysis implements AnalysisInterface{
 	public Analysis() {}
 
 	public MessageHolder analyseMessages(MessageHolder holder, Map<String, Integer> map, Model model){
@@ -27,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 		while(messages != null)
 	    {
 			
-			String message = messages.message.getMessage().toLowerCase(); // combining upper and below lines
+			String message = messages.message.getMessage().toLowerCase();
 
 			int sentimentCount= 0;
 
